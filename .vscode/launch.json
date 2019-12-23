@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(lldb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/BinarySearchTree_tests.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "miDebuggerPath": "/Users/jcheung/Downloads/Xcode.app/Contents/Developer/usr/bin/lldb-mi",
+            "setupCommands": [
+
+                { "text": "-enable-pretty-printing", "description": "enable pretty printing", "ignoreFailures": true },
+            
+                { "text": "handle SIGPIPE nostop noprint pass", "description": "ignore SIGPIPE", "ignoreFailures": true }  
+              ]
+        }
+    ]
+}
